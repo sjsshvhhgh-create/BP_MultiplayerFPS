@@ -1,0 +1,17 @@
+# 过滤虚幻引擎临时文件夹
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+/Script/
+.vscode/
+.vs/
+*.sln
+
+# 过滤未打包的编译临时文件
+*.pyc
+*.obj
+*.pdb
+
+# 注意：后续打包好的 APK 和视频我们用特殊方式处理，这里先不彻底封死
